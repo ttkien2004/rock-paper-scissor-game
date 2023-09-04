@@ -40,8 +40,8 @@ function updateResult(res){
 
 function updateChoice(player, computer){
     document.querySelector('.choice').innerHTML = 
-    `You <img src="button/${player}.png" class="move-icon"> 
-    <img src="button/${computer}.png" class="move-icon"> Computer`;
+    `You <img src="${player}.png" class="move-icon"> 
+    <img src="${computer}.png" class="move-icon"> Computer`;
 }
 
 function updateScore(){
